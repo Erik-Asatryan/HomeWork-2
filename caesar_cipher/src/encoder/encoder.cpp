@@ -37,6 +37,8 @@ else{
 			vorsich = true;
 		}
 		else{
+			// Եթե որոշիչը false ա, վերջիվերջո "Undefined" ես վերադարձնելու
+			// Էդ պատճառով ցիկլդ անիմաստ շարունակելուց խուսափելու համար կարաս false դնելուց հետո break անես
 			vorsich = false;
 		}
 			output += char(b);
